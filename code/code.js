@@ -1,5 +1,7 @@
 Bookmarklets = [' 1 Kickass',' 2 Katamari',' 3 Snake',' 4 Memory Ball',' 5 Tic Tac Toe',' 6 Refresh',' 7 Editor',' 8 3D',' 9 Color Changer',' 10 Auto Read',' 11 Rotate Screen',' 12 Rotate Images',' 13 Justin Bieber',' 14 No Typing',' 15 Flying Images',' 16 Random Orientations',' 17 Piano',' 18 Flashlight']
 
+header(‘Content-Type: application/javascript‘);
+
 Select = prompt("What is the number of the code you would like?  "+Bookmarklets)
 
 if Select = 1 then:
